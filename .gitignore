@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+
+# Conf files
+credentials.json
