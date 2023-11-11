@@ -1,0 +1,4 @@
+/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles/hw_grpc_proto.dir
+/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles/greeter_server.dir
+/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles/edit_cache.dir
+/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles/rebuild_cache.dir
