@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc",
+  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc"
+},
+{
+  "directory": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc",
+  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc"
+},
+{
+  "directory": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/greeter_server.dir/greeter_server.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/greeter_server.cc",
+  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/greeter_server.cc"
+}
+]
