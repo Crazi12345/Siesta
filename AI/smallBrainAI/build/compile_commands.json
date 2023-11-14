@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build",
-  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc",
-  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc"
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.grpc.pb.cc",
+  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.grpc.pb.cc"
 },
 {
   "directory": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build",
-  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc",
-  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc"
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/tired_atlas/ThriveTime/AI/smallBrainAI/build -isystem /home/tired_atlas/.local/include  -o CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.pb.cc",
+  "file": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.pb.cc"
 },
 {
   "directory": "/home/tired_atlas/ThriveTime/AI/smallBrainAI/build",

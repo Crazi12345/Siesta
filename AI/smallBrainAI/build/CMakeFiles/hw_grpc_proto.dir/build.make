@@ -69,57 +69,57 @@ include CMakeFiles/hw_grpc_proto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hw_grpc_proto.dir/flags.make
 
-helloworld.pb.cc: /home/tired_atlas/ThriveTime/protos/helloworld.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating helloworld.pb.cc, helloworld.pb.h, helloworld.grpc.pb.cc, helloworld.grpc.pb.h"
-	/home/tired_atlas/.local/bin/protoc-23.4.0 --grpc_out /home/tired_atlas/ThriveTime/AI/smallBrainAI/build --cpp_out /home/tired_atlas/ThriveTime/AI/smallBrainAI/build -I /home/tired_atlas/ThriveTime/protos --plugin=protoc-gen-grpc="/home/tired_atlas/.local/bin/grpc_cpp_plugin" /home/tired_atlas/ThriveTime/protos/helloworld.proto
+calendar.pb.cc: /home/tired_atlas/ThriveTime/protos/calendar.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating calendar.pb.cc, calendar.pb.h, calendar.grpc.pb.cc, calendar.grpc.pb.h"
+	/home/tired_atlas/.local/bin/protoc-23.4.0 --grpc_out /home/tired_atlas/ThriveTime/AI/smallBrainAI/build --cpp_out /home/tired_atlas/ThriveTime/AI/smallBrainAI/build -I /home/tired_atlas/ThriveTime/protos --plugin=protoc-gen-grpc="/home/tired_atlas/.local/bin/grpc_cpp_plugin" /home/tired_atlas/ThriveTime/protos/calendar.proto
 
-helloworld.pb.h: helloworld.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate helloworld.pb.h
+calendar.pb.h: calendar.pb.cc
+	@$(CMAKE_COMMAND) -E touch_nocreate calendar.pb.h
 
-helloworld.grpc.pb.cc: helloworld.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate helloworld.grpc.pb.cc
+calendar.grpc.pb.cc: calendar.pb.cc
+	@$(CMAKE_COMMAND) -E touch_nocreate calendar.grpc.pb.cc
 
-helloworld.grpc.pb.h: helloworld.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate helloworld.grpc.pb.h
+calendar.grpc.pb.h: calendar.pb.cc
+	@$(CMAKE_COMMAND) -E touch_nocreate calendar.grpc.pb.h
 
-CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/flags.make
-CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: helloworld.grpc.pb.cc
-CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc
+CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/flags.make
+CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o: calendar.grpc.pb.cc
+CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.grpc.pb.cc
 
-CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc > CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.i
+CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.grpc.pb.cc > CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.i
 
-CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.grpc.pb.cc -o CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.s
+CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.grpc.pb.cc -o CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.s
 
-CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/flags.make
-CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o: helloworld.pb.cc
-CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc
+CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/flags.make
+CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o: calendar.pb.cc
+CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o: CMakeFiles/hw_grpc_proto.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o -MF CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o.d -o CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o -c /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.pb.cc
 
-CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc > CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.i
+CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.pb.cc > CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.i
 
-CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/helloworld.pb.cc -o CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.s
+CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/calendar.pb.cc -o CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.s
 
 # Object files for target hw_grpc_proto
 hw_grpc_proto_OBJECTS = \
-"CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o" \
-"CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o"
+"CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o" \
+"CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o"
 
 # External object files for target hw_grpc_proto
 hw_grpc_proto_EXTERNAL_OBJECTS =
 
-libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o
-libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o
+libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o
+libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o
 libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/build.make
 libhw_grpc_proto.a: CMakeFiles/hw_grpc_proto.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libhw_grpc_proto.a"
@@ -134,10 +134,10 @@ CMakeFiles/hw_grpc_proto.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/hw_grpc_proto.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/hw_grpc_proto.dir/clean
 
-CMakeFiles/hw_grpc_proto.dir/depend: helloworld.grpc.pb.cc
-CMakeFiles/hw_grpc_proto.dir/depend: helloworld.grpc.pb.h
-CMakeFiles/hw_grpc_proto.dir/depend: helloworld.pb.cc
-CMakeFiles/hw_grpc_proto.dir/depend: helloworld.pb.h
+CMakeFiles/hw_grpc_proto.dir/depend: calendar.grpc.pb.cc
+CMakeFiles/hw_grpc_proto.dir/depend: calendar.grpc.pb.h
+CMakeFiles/hw_grpc_proto.dir/depend: calendar.pb.cc
+CMakeFiles/hw_grpc_proto.dir/depend: calendar.pb.h
 	cd /home/tired_atlas/ThriveTime/AI/smallBrainAI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tired_atlas/ThriveTime/AI/smallBrainAI /home/tired_atlas/ThriveTime/AI/smallBrainAI /home/tired_atlas/ThriveTime/AI/smallBrainAI/build /home/tired_atlas/ThriveTime/AI/smallBrainAI/build /home/tired_atlas/ThriveTime/AI/smallBrainAI/build/CMakeFiles/hw_grpc_proto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hw_grpc_proto.dir/depend
 

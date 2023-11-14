@@ -142,6 +142,54 @@ greeter_server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_server.dir/build.make CMakeFiles/greeter_server.dir/build
 .PHONY : greeter_server/fast
 
+calendar.grpc.pb.o: calendar.grpc.pb.cc.o
+.PHONY : calendar.grpc.pb.o
+
+# target to build an object file
+calendar.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.o
+.PHONY : calendar.grpc.pb.cc.o
+
+calendar.grpc.pb.i: calendar.grpc.pb.cc.i
+.PHONY : calendar.grpc.pb.i
+
+# target to preprocess a source file
+calendar.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.i
+.PHONY : calendar.grpc.pb.cc.i
+
+calendar.grpc.pb.s: calendar.grpc.pb.cc.s
+.PHONY : calendar.grpc.pb.s
+
+# target to generate assembly for a file
+calendar.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/calendar.grpc.pb.cc.s
+.PHONY : calendar.grpc.pb.cc.s
+
+calendar.pb.o: calendar.pb.cc.o
+.PHONY : calendar.pb.o
+
+# target to build an object file
+calendar.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.o
+.PHONY : calendar.pb.cc.o
+
+calendar.pb.i: calendar.pb.cc.i
+.PHONY : calendar.pb.i
+
+# target to preprocess a source file
+calendar.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.i
+.PHONY : calendar.pb.cc.i
+
+calendar.pb.s: calendar.pb.cc.s
+.PHONY : calendar.pb.s
+
+# target to generate assembly for a file
+calendar.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/calendar.pb.cc.s
+.PHONY : calendar.pb.cc.s
+
 greeter_server.o: greeter_server.cc.o
 .PHONY : greeter_server.o
 
@@ -166,54 +214,6 @@ greeter_server.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_server.dir/build.make CMakeFiles/greeter_server.dir/greeter_server.cc.s
 .PHONY : greeter_server.cc.s
 
-helloworld.grpc.pb.o: helloworld.grpc.pb.cc.o
-.PHONY : helloworld.grpc.pb.o
-
-# target to build an object file
-helloworld.grpc.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o
-.PHONY : helloworld.grpc.pb.cc.o
-
-helloworld.grpc.pb.i: helloworld.grpc.pb.cc.i
-.PHONY : helloworld.grpc.pb.i
-
-# target to preprocess a source file
-helloworld.grpc.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.i
-.PHONY : helloworld.grpc.pb.cc.i
-
-helloworld.grpc.pb.s: helloworld.grpc.pb.cc.s
-.PHONY : helloworld.grpc.pb.s
-
-# target to generate assembly for a file
-helloworld.grpc.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.s
-.PHONY : helloworld.grpc.pb.cc.s
-
-helloworld.pb.o: helloworld.pb.cc.o
-.PHONY : helloworld.pb.o
-
-# target to build an object file
-helloworld.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o
-.PHONY : helloworld.pb.cc.o
-
-helloworld.pb.i: helloworld.pb.cc.i
-.PHONY : helloworld.pb.i
-
-# target to preprocess a source file
-helloworld.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.i
-.PHONY : helloworld.pb.cc.i
-
-helloworld.pb.s: helloworld.pb.cc.s
-.PHONY : helloworld.pb.s
-
-# target to generate assembly for a file
-helloworld.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.s
-.PHONY : helloworld.pb.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -224,15 +224,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... greeter_server"
 	@echo "... hw_grpc_proto"
+	@echo "... calendar.grpc.pb.o"
+	@echo "... calendar.grpc.pb.i"
+	@echo "... calendar.grpc.pb.s"
+	@echo "... calendar.pb.o"
+	@echo "... calendar.pb.i"
+	@echo "... calendar.pb.s"
 	@echo "... greeter_server.o"
 	@echo "... greeter_server.i"
 	@echo "... greeter_server.s"
-	@echo "... helloworld.grpc.pb.o"
-	@echo "... helloworld.grpc.pb.i"
-	@echo "... helloworld.grpc.pb.s"
-	@echo "... helloworld.pb.o"
-	@echo "... helloworld.pb.i"
-	@echo "... helloworld.pb.s"
 .PHONY : help
 
 
